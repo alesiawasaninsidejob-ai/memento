@@ -1,4 +1,4 @@
-/* Song Maker — description parser. Pure JS, works in browser and Node. */
+/* Memento — description parser. Pure JS, works in browser and Node. */
 (function (root) {
   'use strict';
 

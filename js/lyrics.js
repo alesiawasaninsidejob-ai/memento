@@ -1,4 +1,4 @@
-/* Song Maker — lyric writer, syllabifier and syllable-to-melody mapper. Pure JS. */
+/* Memento — lyric writer, syllabifier and syllable-to-melody mapper. Pure JS. */
 (function (root) {
   'use strict';
   const P = (typeof module !== 'undefined' && module.exports) ? require('./parser.js') : root.SongParser;

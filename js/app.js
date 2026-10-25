@@ -1,4 +1,4 @@
-/* Song Maker — UI controller */
+/* Memento — UI controller */
 (function () {
   'use strict';
   const P = window.SongParser, C = window.SongComposer, L = window.SongLyrics, S = window.SongSynth;
@@ -234,8 +234,8 @@
       const blob = new Blob([wav.buffer], { type: 'audio/wav' });
       clearWav();
       state.wavUrl = URL.createObjectURL(blob);
-      const name = 'song-maker-' + songTitle().toLowerCase().replace(/[^a-z0-9]+/g, '-') + '-' + state.params.genre + '.wav';
-      const a = $('wavlink'); a.href = state.wavUrl; a.download = name; a.textContent = 'Save ' + name.replace(/^song-maker-/, '') + ' (' + (blob.size / 1048576).toFixed(1) + ' MB)';
+      const name = 'memento-' + songTitle().toLowerCase().replace(/[^a-z0-9]+/g, '-') + '-' + state.params.genre + '.wav';
+      const a = $('wavlink'); a.href = state.wavUrl; a.download = name; a.textContent = 'Save ' + name.replace(/^memento-/, '') + ' (' + (blob.size / 1048576).toFixed(1) + ' MB)';
       a.classList.remove('hidden');
       a.click();
       setStatus('WAV ready in ' + ((performance.now() - t0) / 1000).toFixed(1) + ' s. If it did not save, tap "Save" above.');

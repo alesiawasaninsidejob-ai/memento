@@ -1,4 +1,4 @@
-/* Song Maker — composer. Turns parsed parameters into a timed list of notes and drum hits.
+/* Memento — composer. Turns parsed parameters into a timed list of notes and drum hits.
    Pure JS (no audio), works in browser and Node. */
 (function (root) {
   'use strict';

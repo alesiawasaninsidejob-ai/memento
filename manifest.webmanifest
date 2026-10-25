@@ -1,6 +1,6 @@
 {
-  "name": "Song Maker",
-  "short_name": "Song Maker",
+  "name": "Memento",
+  "short_name": "Memento",
   "description": "Describe a song and it is composed, sung and played in your browser.",
   "start_url": "./",
   "scope": "./",

@@ -1,4 +1,4 @@
-/* Song Maker — Web Audio synthesis engine: instruments, drums, singing voice, effects, player and offline render. */
+/* Memento — Web Audio synthesis engine: instruments, drums, singing voice, effects, player and offline render. */
 (function (root) {
   'use strict';
 

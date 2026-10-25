@@ -1,5 +1,5 @@
 /* Network-first service worker: always fetch the newest version online, fall back to cache offline. */
-const CACHE = 'song-maker-v1';
+const CACHE = 'memento-v2';
 const ASSETS = ['./', 'index.html', 'styles.css', 'manifest.webmanifest', 'js/parser.js', 'js/composer.js', 'js/lyrics.js', 'js/synth.js', 'js/app.js', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', (e) => {
   self.skipWaiting();
